@@ -1,0 +1,164 @@
+body {
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #212121;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+
+.main_container {
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 40px;
+}
+
+.info_game {
+    gap: 100px;
+    height: 50px;
+}
+
+.timer {
+    font-size: 18px;
+    font-weight: 400;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.difficulty_game {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.range_difficulty {
+    width: 115px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.range_difficulty_name {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button_new_game {
+    border: none;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    background-color: #0075ff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cell_size_50 {
+    width: 50px;
+    height: 50px;
+}
+
+.cell_size_40 {
+    width: 40px;
+    height: 40px;
+}
+
+.cell_size_35 {
+    width: 35px;
+    height: 35px;
+}
+
+.closed_color {
+    background-color: #3BA13B;
+    border: outset 6px #77CD77;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.open_color {
+    background-color: #d5b79a;
+    border: solid 1px #212121;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.closed_color_0 {
+    background-color: #3BA13B;
+    box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.closed_color_1 {
+    background-color: #77CD77;
+    box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.open_color_0 {
+    background-color: #ca935b;
+    box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: auto;
+}
+
+.open_color_1 {
+    background-color: #d5b79a;
+    box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: auto;
+}
+
+.color_num_1 {
+    color: #0000FF;
+}
+
+.color_num_2 {
+    color: #008000;
+}
+
+.color_num_3 {
+    color: #FF0000;
+}
+
+.color_num_4 {
+    color: #00008b;
+}
+
+.color_num_5 {
+    color: #964b00;
+}
+
+.color_num_6 {
+    color: #30d5c8;
+}
+
+.color_num_7 {
+    color: #000;
+}
+
+.color_num_8 {
+    color: #fff;
+}
+
+.field_widgth_550 {
+    width: 550px;
+}
+
+.field_widgth_600 {
+    width: 600px;
+}
+
+.field_widgth_665 {
+    width: 665px;
+}
+
+.field_game {
+    flex-wrap: wrap;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
